@@ -1,0 +1,1035 @@
+{
+	"info": {
+		"_postman_id": "1b97346c-10d9-486b-a915-a187ed176f2c",
+		"name": "Summatives",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests a user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26337694"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5080/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5080",
+					"path": [
+						""
+					]
+				},
+				"description": "Returns the index HTML page."
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "http://localhost:5080/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 05:06:59 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"445f-186e8d06fb6\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17503"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:14:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"Author\" content=\"Kwan Ling Megan LAW\">\n        <meta name=\"Description\" content=\"This is a page about quick fashion.\">\n        <title>KillingFashion_Collaborations</title>\n        <!-- link for CSS file -->\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <!-- Add Javascript -->\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n    />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n        <link href=\"https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css\">\n        <script src=\"https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js\"></script>\n        <style>\n        code {\n            white-space: pre-wrap;\n          }\n          \n          span.smallcaps {\n            font-variant: small-caps;\n          }\n          \n          div.columns {\n            display: flex;\n            gap: min(4vw, 1.5em);\n          }\n          \n          div.column {\n            flex: auto;\n            overflow-x: auto;\n          }\n          \n          div.hanging-indent {\n            margin-left: 1.5em;\n            text-indent: -1.5em;\n          }\n          \n          ul.task-list {\n            list-style: none;\n          }\n          \n          ul.task-list li input[type=\"checkbox\"] {\n            width: 0.8em;\n            margin: 0 0.8em 0.2em -1.6em;\n            vertical-align: middle;\n          }\n          \n          .display.math {\n            display: block;\n            text-align: center;\n            margin: 0.5rem auto;\n          }\n          \n      </style>\n    </head>\n    <body>\n        <div class=\"top\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n            <br>\n        \n        </div>\n    </section>\n    <!-- Navbar Section -->\n    <div id=\"Navbar\">\n        <nav>\n            <ul class=\"Navbar_Menu\">\n                <li class=\"Navbar_Info\">\n                    <a href=\"#HOME\" id=\"Home_page\">HOME</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#OurCollection\" id=\"About_page\">ABOUT US</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#About\" id=\"LargeChart_page\">UPCOMING!!</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Recommendations\" id=\"Recommendations_page\">RECOMMENDATIONS</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Information\" id=\"Information_page\">MORE INFO</a>\n                </li>\n            </ul>\n        </nav>\n    </div>\n    <div id=\"NavButton\">\n        <img src=\"image/menu.png\" id=\"Menu\">\n        \n    </div>\n    <!---HOME Section - Content Page -->\n    <section id=\"HOME\">\n        <div class=\"content\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Welcome to Killing Fashion Collaborations. </h1>\n            <br>\n            <strong id=\"NeedHelp\"> Upcoming Collection - Nike x CoconutTree </strong>\n            <h2>  Available to PRE - ORDER Right Now!! </h2>\n            <br>\n            <br>\n            <p> The ultimate destination for stylish and trendy collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</p>\n            <div class=\"content-button\">\n                <a href=\"#About\">\n                    <span></span> Apparel Collection\n                </a>\n                <a href=\"#OurCollection\">\n                    <span></span> Read More (Other Collection)\n                </a>\n            </div>\n            <br>\n            <br>\n            <a href=\"http://localhost:5080/OrderPage\" class=\"button\"> PRE ORDER NOW </a>\n            <br>\n            <br>\n            <br>\n            \n        </div>\n    </section>\n    <!--OurCollection-->\n    <section id=\"OurCollection\">\n        <div class=\"Title_font\">\n            <br>\n            <br>\n            <p>Our Collection</p>\n            <br>\n            <h1>Welcome to Killing Fashion Collaborations, the ultimate destination for fashionable collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</h1>\n            <br>\n            <h1>At Killing Fashion Collaborations, we believe that fashion can be unique and empowering. Our collection includes limited edition sneakers, boots, and sandals that are sure to showcase your individuality and charm.</h1>\n            <br>\n            <h1>Whether you're looking for the latest Nike x Off-White collaboration or an exclusive Adidas x Pharrell Williams release, you'll find it here at Killing Fashion Collaborations. We take pride in offering the best selection of footwear from around the world, all in one convenient place.</h1>\n        </div>\n        <div class=\"OurCollection-Box\">\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe01.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: DUNK LOW</h3>\n                    <hr>\n                    <p> The Nike Dunk Low is a classic low-cut sneaker with a padded tongue and collar for comfort, durable leather and suede upper, and iconic Nike swoosh branding.\n                        </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe02.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Force</h3>\n                    <hr>\n                    <p> The Air Force is a classic high-top sneaker from Nike with a leather upper, perforated toe box, padded collar, and chunky sole for a timeless, versatile look.</p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe03.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Jordan</h3>\n                    <hr>\n                    <p> The Air Jordan is a legendary basketball sneaker from Nike, designed in collaboration with Michael Jordan. Featuring a sleek silhouette, durable leather upper, and iconic Jumpman logo, the Air Jordan is a true classic. </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe04.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Dior x Nike Air Jordan 1</h3>\n                    <hr>\n                    <p> The Dior x Nike Air Jordan 1 is a luxury sneaker collaboration that combines the iconic Air Jordan 1 silhouette with Dior's high-end fashion aesthetic. Featuring a premium leather upper, embroidered Swoosh, and Dior branding, this shoe is a rare and coveted collector's item.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!---About-->\n    <section id=\"About\">\n        <div class=\"Title_font\">\n            <p>Apparel Collection</p>\n        </div>\n        <div class=\"About-Box d-flex justify-content-center align-content-between text-center\">\n            <h3 class=\"w-100\">Nike x CoconutTree</h3>\n        </div>\n        <div class=\"About\">\n            <h1>Overview</h1>\n            <div class=\"About-Description\">\n                <div class=\"About-Text\">\n                    <p id=\"WhatisAbout\"></p>\n                </div>\n            </div>\n            <h1>Search for the COLLECTION WE GOT TODAY</h1>\n        </div>\n        <br>\n        <div class=\"Searchlist\" style=\"line-height: 30px;\">\n            <br>\n            <input type=\"button\" value=\"FindShoes\" class=\"btn btn -lg\" onclick=\"queryProduct()\">\n            <table id=\"ShoesList\" style=\"width: 90%;\">\n                <thead>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </thead>\n                <tfoot>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </tfoot>\n            </table>\n        </section>\n        <!--Recommendations-->\n        <section id=\"Recommendations\">\n            <div class=\"Title_font\">\n                <br>\n                <br>\n                <p> Other Recommendations</p>\n                <br>\n            \n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike01.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4>Nike x UNO x Air Force 1 Low '50th Anniversary'</h4>\n                            <small>£90</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike02.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4> Nike x Cactus Plant Flea Market 1 sneakers</h4>\n                            <small>£871</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike03.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4> Nike X Off-White Dunk Low sneakers</h4>\n                            <small>£898</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike04.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Tiffany & Co. Air Force 1 Low sneakers</h4>\n                            <small>£3,367 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike05.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Louis Vuitton Air Force 1 Low sneakers</h4>\n                            <small>£12,071 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike06.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Gucci - Interlocking G leather sneakers</h4>\n                            <small>£685 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--Information-->\n        <section>\n            <div id=\"Information\">\n                <div class=\"Title_font\">\n                    <br>\n                    <br>\n                    <p>More Information </p>\n                    <br>\n                    <h1>Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n                </div>\n                <div class=\"Information_Info\">\n                    <h1>Subscribe to Us for the latest news and updates.</h1>\n                    <strong>Easily unsubscribe in one click from email subscriptions. Sign up today!</strong>\n                    <form action=\"/subscribe\" method=\"post\">\n                        <br>\n                        <div class=\"EmailForm\">\n                            <label for=\"lastname\">Last Name: *</label>\n                            <br/>\n                            <input type=\"text\" name=\"lastname\" id=\"lastname\" class=\"Form_Info\" placeholder=\"Last Name\" required>\n                            <br>\n                            <br>\n                            <label for=\"email\">Email: *</label>\n                            <br/>\n                            <input type=\"email\" name=\"email\" id=\"email\" class=\"Form_Info\" placeholder=\"Email\" required>\n                            <br>\n                            <br>\n                            <br>\n                            <p>Enter your details to receive our latest news.</p>\n                            <div class=\"newsletter \">\n                                <input class=\"newsletter-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n                                <label class=\"newsletter-label\" for=\"flexCheckChecked\">\n                                    Receive our monthly newsletter.\n                                </label>\n                            </div>\n                            <br>\n                            <br>\n                            <div id=\"Subscribe\"></div>\n                            <button id=\"SignupBtn\">Subscribe</button>\n                        </form>\n                        <hr>\n                        <br>\n                        <br>\n                        <br>\n                        <section id=\"Footer\">\n                            <div class=\"Footer-Row\">\n                                <p>Phone 07885 340220 \n                                    <i class=\"fa-solid fa-phone\"></i>\n                                </i>\n                            </p>\n                            <p>KillingFashion_Collaborations@gmail.com \n                                <i class=\"fa-solid fa-paper-plane\"></i>\n                            </i>\n                        </p>\n                        <p>Queen's college, Rainmill, London LN1 3LH\n                            <i class=\"fa-solid fa-location-dot\"></i>\n                        </i>\n                    </p>\n                </div>\n                <div class=\"Social-Link\">\n                    <i class=\"fa-brands fa-instagram\"></i>\n                    <i class=\"fa-brands fa-facebook\"></i>\n                    <i class=\"fa-brands fa-twitter\"></i>\n                    <i class=\"fa-brands fa-whatsapp\"></i>\n                    <br>\n                    <p>Copyright</p>\n                    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n                    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n                \n                </div>\n            </section>\n        </section>\n        <script src=\"Javascript.js\"></script>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/OrderPage",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5080/OrderPage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5080",
+					"path": [
+						"OrderPage"
+					]
+				},
+				"description": "Returns the order page of the web application."
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/OrderPage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"OrderPage"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "http://localhost:5080/OrderPage",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/OrderPage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"OrderPage"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 04:18:52 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2aa0-186e8a46110\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "10912"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:14:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Order</title>\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n    />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <style>\n        @media (max-width: 767px) {\n            div {\n              width: 100%;\n              font-size: 14px;\n              flex-basis: 100%;\n            }\n          }\n    </style>\n    </head>\n    <body>\n        <!---HOME Section - Content Page -->\n        <section id=\"HOME\" style=\"background: #fceabb;\n    background: -webkit-linear-gradient(to top, #dfedec, #9ccbc3);\n    background: linear-gradient(to top, #e1f5f4, #9ccbc3);\">\n            <div class=\"content\">\n                <img src=\"\" id=\"logo\">\n                <script src=\"home_logo.js\"></script>\n                <h1> Welcome to Killing Fashion PRE-ORDER Form </h1>\n                <br>\n                <strong id=\"NeedHelp\"> Nike x CoconutTree </strong>\n                <h2 id=\"NeedHelp\"> £169.95 </h2>\n                <h2 id=\"NeedHelp\"> SKU: DX01028-318 </h2>\n                <br>\n                <nav aria-label=\"Page navigation example\" style=\"align-items: center;\">\n                    <ul class=\"pagination\">\n                        <li class=\"page-item\">\n                            <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">\n                                <span aria-hidden=\"true\">&laquo;</span>\n                            </a>\n                        </li>\n                        <li class=\"page-item\" style=\"position: relative\">\n                            <a class=\"page-link\" href=\"image/sale01.webp\">1</a>\n                        </li>\n                        <li class=\"page-item\" style=\"position: relative\">\n                            <a class=\"page-link\" href=\"image/sale02.webp\">2</a>\n                        </li>\n                        <li class=\"page-item\" style=\"position: relative\">\n                            <a class=\"page-link\" href=\"image/sale03.webp\">3</a>\n                        </li>\n                        <li class=\"page-item\" style=\"position: relative\">\n                            <a class=\"page-link\" href=\"image/sale04.webp\">4</a>\n                        </li>\n                        <li class=\"page-item\">\n                            <a class=\"page-link\" href=\"#\" aria-label=\"Next\">\n                                <span aria-hidden=\"true\">&raquo;</span>\n                            </a>\n                        </li>\n                    </ul>\n                </nav>\n                <div class=\"cards\">\n                    <div class=\"col-md-4 col-sm-6 col-lg-3\" style=\"position: relative\">\n                        <a href=\"image/sale01.webp\" data-toggle=\"lightbox\" data-group=\"image-group-1\">\n                            <img src=\"image/sale01.webp\" id=\"sale01\" class=\"img-rounded\" alt=\"...\" style=\"max-height: 300px;\">\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-md-4 col-sm-6 col-lg-3\" style=\"position: relative\">\n                    <a href=\"image/sale02.webp\" data-toggle=\"lightbox\" data-group=\"image-group-1\">\n                        <img src=\"image/sale02.webp\" id=\"sale02\" class=\"img-rounded\" alt=\"...\" style=\"max-height: 300px;\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-4 col-sm-6 col-lg-3\" style=\"position: relative\">\n                <a href=\"image/sale03.webp\" data-toggle=\"lightbox\" data-group=\"image-group-1\">\n                    <img src=\"image/sale03.webp\" id=\"sale03\" class=\"img-rounded\" alt=\"...\" style=\"max-height: 300px;\">\n                </a>\n            </div>\n        </div>\n        <div class=\"col-md-4 col-sm-6 col-lg-3\" style=\"position: relative\">\n            <a href=\"image/sale04.webp\" data-toggle=\"lightbox\" data-group=\"image-group-1\">\n                <img src=\"image/sale04.webp\" id=\"sale04\" class=\"img-rounded\" alt=\"...\" style=\"max-height: 300px;\">\n            </a>\n        </div>\n    </div>\n...\n</div>\n<br>\n            \n</div>\n<h1>Take your order</h1>\n<form class=\"row g-3\" action=\"/order.php\" method=\"get\">\n    <div class=\"col-md-6\">\n        <label for=\"inputEmail4\" class=\"form-label\">Email</label>\n        <input type=\"email\" class=\"form-control\" id=\"inputEmail4\" name=\"clientname\" placeholder=\"XXXXX@xgmail.com\" required>\n                \n    </div>\n    <div class=\"col-md-6\">\n        <label for=\"inputPassword4\" class=\"form-label\">Password: (For view order details from the website)</label>\n        <input type=\"password\" class=\"form-control\" id=\"inputPassword4\" name=\"PWD\" placeholder=\" Set a new password if you are new to order\" required>\n                \n    </div>\n    <div class=\"col-12\">\n        <label for=\"inputAddress\" class=\"form-label\">Address</label>\n        <input type=\"text\" class=\"form-control\" id=\"inputAddress\" name=\"address\" placeholder=\"1234 Main St\" required>\n                \n    </div>\n    <div class=\"col-md-6\">\n        <label for=\"inputCity\" class=\"form-label\">Card Number</label>\n        <input type=\"text\" class=\"form-control\" name=\"Cardnumber\" id=\"inputCardnumber\" placeholder=\"0000 0000 0000 0000\" required>\n                \n    </div>\n    <div class=\"col-md-4\">\n        <label for=\"inputState\" class=\"form-label\">Payment Method</label>\n        <select id=\"inputState\" class=\"form-select\" name=\"paymethod\" required>\n            <option selected>Choose...</option>\n            <option>Visa</option>\n            <option>Master</option>\n            <option>AE</option>\n        </select>\n    </div>\n    <div class=\"col-md-4\">\n        <label for=\"inputState\" class=\"form-label\">Quantity</label>\n        <select id=\"inputState\" class=\"form-select\" name=\"quantity\" required>\n            <option selected>Choose...</option>\n            <option aria-label=\"Disabled select example\" disabled>0 (Not for Pre-Order)</option>\n            <option>1</option>\n            <option aria-label=\"Disabled select example\" disabled>2 (Not for Pre-Order)</option>\n            <option aria-label=\"Disabled select example\" disabled>3 (Not for Pre-Order)</option>\n        </select>\n    </div>\n    <div class=\"col-md-4\">\n        <label for=\"inputState\" class=\"form-label\">Size</label>\n        <select id=\"inputState\" class=\"form-select\" name=\"size\" required>\n            <option selected>Choose...</option>\n            <option value=\"5.5\">UK 5.5</option>\n            <option value=\"6\" aria-label=\"Disabled select example\" disabled>UK 6 (EU 39)</option>\n            <option value=\"6.5\">UK 6.5</option>\n            <option value=\"7\">UK 7</option>\n            <option value=\"7.5\">UK 7.5</option>\n            <option value=\"8\">UK 8</option>\n            <option value=\"8.5\" aria-label=\"Disabled select example\" disabled>UK 8.5</option>\n            <option value=\"9\">UK 9</option>\n            <option value=\"9.5\" aria-label=\"Disabled select example\" disabled>UK 9.5</option>\n            <option value=\"10\">UK 10</option>\n            <option value=\"10.5\">UK 10.5</option>\n        </select>\n    </div>\n    <div class=\"col-12\">\n        <label for=\"inputAddress\" class=\"form-label\">Verification</label>\n        <br>\n        <img src=\"image/avoid-captcha.jpg\" class=\"img-thumbnail\" alt=\"...\" style=\"max-height: 100px;\">\n        <br>\n        <br>\n        <input type=\"text\" class=\"form-control\" id=\"inputAddress\" name=\"verification\"  placeholder=\"NOTE: Capital letters\" required> \n                  \n    </div>\n    <div class=\"col-12\">\n        <div class=\"form-check\">\n            <input class=\"form-check-input is-invalid\" type=\"checkbox\" value=\"\" id=\"invalidCheck3\" aria-describedby=\"invalidCheck3Feedback\" required>\n            <label class=\"form-check-label\" for=\"invalidCheck3\">\n                        Check me out by Agreeing to terms and conditions\n                      </label>\n            <div id=\"invalidCheck3Feedback\" class=\"invalid-feedback\">\n                        You must agree before submitting.\n                      </div>\n        </div>\n    </div>\n    <div class=\"col-12\">\n        <button type=\"submit\" class=\"btn btn-primary\">ORDER</button>\n    </div>\n</form>\n<br>\n<br>\n<br>\n        \n</div>\n</section>\n<section id=\"Footer\">\n    <div class=\"Footer-Row\">\n        <p>Phone 07885 340220 \n            <i class=\"fa-solid fa-phone\"></i>\n        </i>\n    </p>\n    <p>KillingFashion_Collaborations@gmail.com \n        <i class=\"fa-solid fa-paper-plane\"></i>\n    </i>\n</p>\n<p>Queen's college, Rainmill, London LN1 3LH\n    <i class=\"fa-solid fa-location-dot\"></i>\n</i>\n</p>\n</div>\n<div class=\"Social-Link\">\n    <i class=\"fa-brands fa-instagram\"></i>\n    <i class=\"fa-brands fa-facebook\"></i>\n    <i class=\"fa-brands fa-twitter\"></i>\n    <i class=\"fa-brands fa-whatsapp\"></i>\n    <br>\n    <p>Copyright</p>\n    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n        \n</div>\n</section>\n</body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/rating.do",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5080/rating.do",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5080",
+					"path": [
+						"rating.do"
+					]
+				},
+				"description": "Saves the user's rating and comments to a JSON file and redirects the user to the home page."
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/rating.do",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"rating.do"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "http://localhost:5080/rating.do",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/rating.do",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"rating.do"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 05:06:59 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"445f-186e8d06fb6\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17503"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:11:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"Author\" content=\"Kwan Ling Megan LAW\">\n        <meta name=\"Description\" content=\"This is a page about quick fashion.\">\n        <title>KillingFashion_Collaborations</title>\n        <!-- link for CSS file -->\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <!-- Add Javascript -->\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n    />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n        <link href=\"https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css\">\n        <script src=\"https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js\"></script>\n        <style>\n        code {\n            white-space: pre-wrap;\n          }\n          \n          span.smallcaps {\n            font-variant: small-caps;\n          }\n          \n          div.columns {\n            display: flex;\n            gap: min(4vw, 1.5em);\n          }\n          \n          div.column {\n            flex: auto;\n            overflow-x: auto;\n          }\n          \n          div.hanging-indent {\n            margin-left: 1.5em;\n            text-indent: -1.5em;\n          }\n          \n          ul.task-list {\n            list-style: none;\n          }\n          \n          ul.task-list li input[type=\"checkbox\"] {\n            width: 0.8em;\n            margin: 0 0.8em 0.2em -1.6em;\n            vertical-align: middle;\n          }\n          \n          .display.math {\n            display: block;\n            text-align: center;\n            margin: 0.5rem auto;\n          }\n          \n      </style>\n    </head>\n    <body>\n        <div class=\"top\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n            <br>\n        \n        </div>\n    </section>\n    <!-- Navbar Section -->\n    <div id=\"Navbar\">\n        <nav>\n            <ul class=\"Navbar_Menu\">\n                <li class=\"Navbar_Info\">\n                    <a href=\"#HOME\" id=\"Home_page\">HOME</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#OurCollection\" id=\"About_page\">ABOUT US</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#About\" id=\"LargeChart_page\">UPCOMING!!</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Recommendations\" id=\"Recommendations_page\">RECOMMENDATIONS</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Information\" id=\"Information_page\">MORE INFO</a>\n                </li>\n            </ul>\n        </nav>\n    </div>\n    <div id=\"NavButton\">\n        <img src=\"image/menu.png\" id=\"Menu\">\n        \n    </div>\n    <!---HOME Section - Content Page -->\n    <section id=\"HOME\">\n        <div class=\"content\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Welcome to Killing Fashion Collaborations. </h1>\n            <br>\n            <strong id=\"NeedHelp\"> Upcoming Collection - Nike x CoconutTree </strong>\n            <h2>  Available to PRE - ORDER Right Now!! </h2>\n            <br>\n            <br>\n            <p> The ultimate destination for stylish and trendy collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</p>\n            <div class=\"content-button\">\n                <a href=\"#About\">\n                    <span></span> Apparel Collection\n                </a>\n                <a href=\"#OurCollection\">\n                    <span></span> Read More (Other Collection)\n                </a>\n            </div>\n            <br>\n            <br>\n            <a href=\"http://localhost:5080/OrderPage\" class=\"button\"> PRE ORDER NOW </a>\n            <br>\n            <br>\n            <br>\n            \n        </div>\n    </section>\n    <!--OurCollection-->\n    <section id=\"OurCollection\">\n        <div class=\"Title_font\">\n            <br>\n            <br>\n            <p>Our Collection</p>\n            <br>\n            <h1>Welcome to Killing Fashion Collaborations, the ultimate destination for fashionable collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</h1>\n            <br>\n            <h1>At Killing Fashion Collaborations, we believe that fashion can be unique and empowering. Our collection includes limited edition sneakers, boots, and sandals that are sure to showcase your individuality and charm.</h1>\n            <br>\n            <h1>Whether you're looking for the latest Nike x Off-White collaboration or an exclusive Adidas x Pharrell Williams release, you'll find it here at Killing Fashion Collaborations. We take pride in offering the best selection of footwear from around the world, all in one convenient place.</h1>\n        </div>\n        <div class=\"OurCollection-Box\">\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe01.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: DUNK LOW</h3>\n                    <hr>\n                    <p> The Nike Dunk Low is a classic low-cut sneaker with a padded tongue and collar for comfort, durable leather and suede upper, and iconic Nike swoosh branding.\n                        </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe02.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Force</h3>\n                    <hr>\n                    <p> The Air Force is a classic high-top sneaker from Nike with a leather upper, perforated toe box, padded collar, and chunky sole for a timeless, versatile look.</p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe03.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Jordan</h3>\n                    <hr>\n                    <p> The Air Jordan is a legendary basketball sneaker from Nike, designed in collaboration with Michael Jordan. Featuring a sleek silhouette, durable leather upper, and iconic Jumpman logo, the Air Jordan is a true classic. </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe04.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Dior x Nike Air Jordan 1</h3>\n                    <hr>\n                    <p> The Dior x Nike Air Jordan 1 is a luxury sneaker collaboration that combines the iconic Air Jordan 1 silhouette with Dior's high-end fashion aesthetic. Featuring a premium leather upper, embroidered Swoosh, and Dior branding, this shoe is a rare and coveted collector's item.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!---About-->\n    <section id=\"About\">\n        <div class=\"Title_font\">\n            <p>Apparel Collection</p>\n        </div>\n        <div class=\"About-Box d-flex justify-content-center align-content-between text-center\">\n            <h3 class=\"w-100\">Nike x CoconutTree</h3>\n        </div>\n        <div class=\"About\">\n            <h1>Overview</h1>\n            <div class=\"About-Description\">\n                <div class=\"About-Text\">\n                    <p id=\"WhatisAbout\"></p>\n                </div>\n            </div>\n            <h1>Search for the COLLECTION WE GOT TODAY</h1>\n        </div>\n        <br>\n        <div class=\"Searchlist\" style=\"line-height: 30px;\">\n            <br>\n            <input type=\"button\" value=\"FindShoes\" class=\"btn btn -lg\" onclick=\"queryProduct()\">\n            <table id=\"ShoesList\" style=\"width: 90%;\">\n                <thead>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </thead>\n                <tfoot>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </tfoot>\n            </table>\n        </section>\n        <!--Recommendations-->\n        <section id=\"Recommendations\">\n            <div class=\"Title_font\">\n                <br>\n                <br>\n                <p> Other Recommendations</p>\n                <br>\n            \n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike01.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4>Nike x UNO x Air Force 1 Low '50th Anniversary'</h4>\n                            <small>£90</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike02.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4> Nike x Cactus Plant Flea Market 1 sneakers</h4>\n                            <small>£871</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike03.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4> Nike X Off-White Dunk Low sneakers</h4>\n                            <small>£898</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike04.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Tiffany & Co. Air Force 1 Low sneakers</h4>\n                            <small>£3,367 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike05.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Louis Vuitton Air Force 1 Low sneakers</h4>\n                            <small>£12,071 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike06.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Gucci - Interlocking G leather sneakers</h4>\n                            <small>£685 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--Information-->\n        <section>\n            <div id=\"Information\">\n                <div class=\"Title_font\">\n                    <br>\n                    <br>\n                    <p>More Information </p>\n                    <br>\n                    <h1>Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n                </div>\n                <div class=\"Information_Info\">\n                    <h1>Subscribe to Us for the latest news and updates.</h1>\n                    <strong>Easily unsubscribe in one click from email subscriptions. Sign up today!</strong>\n                    <form action=\"/subscribe\" method=\"post\">\n                        <br>\n                        <div class=\"EmailForm\">\n                            <label for=\"lastname\">Last Name: *</label>\n                            <br/>\n                            <input type=\"text\" name=\"lastname\" id=\"lastname\" class=\"Form_Info\" placeholder=\"Last Name\" required>\n                            <br>\n                            <br>\n                            <label for=\"email\">Email: *</label>\n                            <br/>\n                            <input type=\"email\" name=\"email\" id=\"email\" class=\"Form_Info\" placeholder=\"Email\" required>\n                            <br>\n                            <br>\n                            <br>\n                            <p>Enter your details to receive our latest news.</p>\n                            <div class=\"newsletter \">\n                                <input class=\"newsletter-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n                                <label class=\"newsletter-label\" for=\"flexCheckChecked\">\n                                    Receive our monthly newsletter.\n                                </label>\n                            </div>\n                            <br>\n                            <br>\n                            <div id=\"Subscribe\"></div>\n                            <button id=\"SignupBtn\">Subscribe</button>\n                        </form>\n                        <hr>\n                        <br>\n                        <br>\n                        <br>\n                        <section id=\"Footer\">\n                            <div class=\"Footer-Row\">\n                                <p>Phone 07885 340220 \n                                    <i class=\"fa-solid fa-phone\"></i>\n                                </i>\n                            </p>\n                            <p>KillingFashion_Collaborations@gmail.com \n                                <i class=\"fa-solid fa-paper-plane\"></i>\n                            </i>\n                        </p>\n                        <p>Queen's college, Rainmill, London LN1 3LH\n                            <i class=\"fa-solid fa-location-dot\"></i>\n                        </i>\n                    </p>\n                </div>\n                <div class=\"Social-Link\">\n                    <i class=\"fa-brands fa-instagram\"></i>\n                    <i class=\"fa-brands fa-facebook\"></i>\n                    <i class=\"fa-brands fa-twitter\"></i>\n                    <i class=\"fa-brands fa-whatsapp\"></i>\n                    <br>\n                    <p>Copyright</p>\n                    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n                    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n                \n                </div>\n            </section>\n        </section>\n        <script src=\"Javascript.js\"></script>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/done",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5080/done",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5080",
+					"path": [
+						"done"
+					]
+				},
+				"description": "Returns the confirmation page of the web application, displaying the user's order information."
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5080/done",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"done"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/order.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5080/order.php?clientname=&PWD=&address=&Cardnumber=&paymethod=&quantity=&size=&verification=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5080",
+					"path": [
+						"order.php"
+					],
+					"query": [
+						{
+							"key": "clientname",
+							"value": ""
+						},
+						{
+							"key": "PWD",
+							"value": ""
+						},
+						{
+							"key": "address",
+							"value": ""
+						},
+						{
+							"key": "Cardnumber",
+							"value": ""
+						},
+						{
+							"key": "paymethod",
+							"value": ""
+						},
+						{
+							"key": "quantity",
+							"value": ""
+						},
+						{
+							"key": "size",
+							"value": ""
+						},
+						{
+							"key": "verification",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:5080/order.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5080/order.php?clientname=Megan%40icloe.gom&PWD=megan&address=77+Tree&Cardnumber=1234&paymethod=Master&quantity=1&size=6.5&verification=qGphJD",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"order.php"
+							],
+							"query": [
+								{
+									"key": "clientname",
+									"value": "Megan%40icloe.gom"
+								},
+								{
+									"key": "PWD",
+									"value": "megan"
+								},
+								{
+									"key": "address",
+									"value": "77+Tree"
+								},
+								{
+									"key": "Cardnumber",
+									"value": "1234"
+								},
+								{
+									"key": "paymethod",
+									"value": "Master"
+								},
+								{
+									"key": "quantity",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "6.5"
+								},
+								{
+									"key": "verification",
+									"value": "qGphJD"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 03:57:25 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1ade-186e890bf18\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6878"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:06:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Confirmation Page</title>\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n        />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <style>\n            @media (max-width: 767px) {\n                #HOME #Footer {\n                  width: 100%;\n                  flex-basis: 100%;\n                }\n              }\n        </style>\n    </head>\n    <body>\n        <!---HOME Section - Content Page -->\n        <section id=\"HOME\" style=\"background: lightblue url('client/image/sale08.webp');\">\n            <div class=\"content\">\n                <img src=\"\" id=\"logo\">\n                <script src=\"home_logo.js\"></script>\n                <h1> Thank you for purchasing from Killing Fashion Collaborations. </h1>\n                <br>\n                <strong id=\"NeedHelp\"> Pre-Order - Nike x CoconutTree </strong>\n                <br>\n                <h1>Your order has been received.</h1>\n                <br>\n                <br>\n                <h3 style = \"text-align: justify; \" >\n                Please note that pre-order items are for reservation only and the related card number will not be charged for payment. Orders that have been accepted have been successfully reserved, and notifications will be sent in the next few days for payment processing.</h3>\n                <br>\n                <br>\n                <button id=\"OrderBtn\" onclick=\"displayData()\" onmousedown=\"mouseDown()\" onmouseup=\"mouseUp()\">Show Order Details</button>\n                <br>\n                <br>\n                <div id=\"order-data\"></div>\n                <br>\n                <br>\n                <br>\n                <form action=\"/rating.do\" method=\"get\">\n                    <h1>Rate and review</h1>\n                    <h2>Please rate our system and share your experience to assist us in improving.</h2>\n                    <div class=\"col-md-4\" >\n                        <label for=\"inputState\" class=\"form-label\">To score</label>\n                        <select id=\"inputState\" class=\"form-select\" name=\"rating\">\n                            <option selected>Choose...</option>\n                            <option>1(Lowest)</option>\n                            <option>2</option>\n                            <option>3</option>\n                            <option>4</option>\n                            <option>5(Highest)</option>\n                        </select>\n                    </div>\n                    <br>\n                    <br>\n                    <br>\n                    <label for=\"exampleFormControlTextarea1\" class=\"form-label\">Comments</label>\n                    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" type=\"text\" name=\"comments\" placeholder=\"Share details of your own experience. Thank you.\"></textarea>\n                    <br>\n                    <br>\n                    <button class=\"btn btn-outline-success btn-lg\">Submit</button>\n                </form>\n                <br>\n                <br>\n                <br>\n                <h2>After submitting the review, you will be redirected to the home page.</h2>\n            </div>\n        </section>\n        <section id=\"Footer\">\n            <div class=\"Footer-Row\">\n                <p>Phone 07885 340220 \n                    <i class=\"fa-solid fa-phone\"></i>\n                </i>\n            </p>\n            <p>KillingFashion_Collaborations@gmail.com \n                <i class=\"fa-solid fa-paper-plane\"></i>\n            </i>\n        </p>\n        <p>Queen's college, Rainmill, London LN1 3LH\n            <i class=\"fa-solid fa-location-dot\"></i>\n        </i>\n    </p>\n</div>\n<div class=\"Social-Link\">\n    <i class=\"fa-brands fa-instagram\"></i>\n    <i class=\"fa-brands fa-facebook\"></i>\n    <i class=\"fa-brands fa-twitter\"></i>\n    <i class=\"fa-brands fa-whatsapp\"></i>\n    <br>\n    <p>Copyright</p>\n    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n    \n</div>\n</section>\n</body>\n<script src=\"Javascript.js\"></script>\n<script>\n    function displayData() {\n        // Use AJAX to read the JSON file\n        var xhr = new XMLHttpRequest();\n        xhr.open('GET', './DataSet/data.json', true);\n        xhr.onload = function() {\n            if (xhr.status == 200) {\n                // Parse the JSON data\n                var data = JSON.parse(xhr.responseText);\n    \n                // Create a table to display the data\n                var table = '\n    <table>';\n                table += '\n        <tr>\n            <th>Client Name</th>\n            <th>Address</th>\n            <th>Card Number</th>\n            <th>Payment Method</th>\n            <th>Size</th>\n        </tr>';\n                for (var i = 0; i< data.length; i++) {\n                    table += '\n        <tr>';\n                    table += '\n            <td style=\"width:20%;\">' + data[i].clientname + '</td>';\n                    table += '\n            <td style=\"width:20%;\">' + data[i].address + '</td>';\n                    table += '\n            <td style=\"width:20%;\">' + data[i].Cardnumber + '</td>';\n                    table += '\n            <td style=\"width:20%;\">' + data[i].paymethod + '</td>';\n                    table += '\n            <td style=\"width:20%;\">' + data[i].size + '</td>';\n                    table += '\n        </tr>';\n                }\n                table += '\n    </table>';\n    \n                // Display the table in the container\n                document.getElementById('order-data').innerHTML = table;\n            }\n        };\n        xhr.send();\n    }\n</script>\n</html>"
+				},
+				{
+					"name": "http://localhost:5080/order.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Cardnumber",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "PWD",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "Cardnumber",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "paymethod",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "size",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verification",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5080/order.php?clientname=&PWD=&address=&Cardnumber=&paymethod=&quantity=&size=&verification=",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"order.php"
+							],
+							"query": [
+								{
+									"key": "clientname",
+									"value": ""
+								},
+								{
+									"key": "PWD",
+									"value": ""
+								},
+								{
+									"key": "address",
+									"value": ""
+								},
+								{
+									"key": "Cardnumber",
+									"value": ""
+								},
+								{
+									"key": "paymethod",
+									"value": ""
+								},
+								{
+									"key": "quantity",
+									"value": ""
+								},
+								{
+									"key": "size",
+									"value": ""
+								},
+								{
+									"key": "verification",
+									"value": ""
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "83"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"53-bsgmKbo2HnjwssZ+zrAvRvC0ayQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:46:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<h1>Sorry, your purchase could not be completed as the verification is failed.</h1>"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/rating.do",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "rating.do?rating=3&comments=good",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5080/rating.do?rating=3&comments=good",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"rating.do"
+							],
+							"query": [
+								{
+									"key": "rating",
+									"value": "3"
+								},
+								{
+									"key": "comments",
+									"value": "good"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 05:06:59 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"445f-186e8d06fb6\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17503"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:06:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"Author\" content=\"Kwan Ling Megan LAW\">\n        <meta name=\"Description\" content=\"This is a page about quick fashion.\">\n        <title>KillingFashion_Collaborations</title>\n        <!-- link for CSS file -->\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <!-- Add Javascript -->\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n    />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n        <link href=\"https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css\">\n        <script src=\"https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js\"></script>\n        <style>\n        code {\n            white-space: pre-wrap;\n          }\n          \n          span.smallcaps {\n            font-variant: small-caps;\n          }\n          \n          div.columns {\n            display: flex;\n            gap: min(4vw, 1.5em);\n          }\n          \n          div.column {\n            flex: auto;\n            overflow-x: auto;\n          }\n          \n          div.hanging-indent {\n            margin-left: 1.5em;\n            text-indent: -1.5em;\n          }\n          \n          ul.task-list {\n            list-style: none;\n          }\n          \n          ul.task-list li input[type=\"checkbox\"] {\n            width: 0.8em;\n            margin: 0 0.8em 0.2em -1.6em;\n            vertical-align: middle;\n          }\n          \n          .display.math {\n            display: block;\n            text-align: center;\n            margin: 0.5rem auto;\n          }\n          \n      </style>\n    </head>\n    <body>\n        <div class=\"top\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n            <br>\n        \n        </div>\n    </section>\n    <!-- Navbar Section -->\n    <div id=\"Navbar\">\n        <nav>\n            <ul class=\"Navbar_Menu\">\n                <li class=\"Navbar_Info\">\n                    <a href=\"#HOME\" id=\"Home_page\">HOME</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#OurCollection\" id=\"About_page\">ABOUT US</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#About\" id=\"LargeChart_page\">UPCOMING!!</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Recommendations\" id=\"Recommendations_page\">RECOMMENDATIONS</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Information\" id=\"Information_page\">MORE INFO</a>\n                </li>\n            </ul>\n        </nav>\n    </div>\n    <div id=\"NavButton\">\n        <img src=\"image/menu.png\" id=\"Menu\">\n        \n    </div>\n    <!---HOME Section - Content Page -->\n    <section id=\"HOME\">\n        <div class=\"content\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Welcome to Killing Fashion Collaborations. </h1>\n            <br>\n            <strong id=\"NeedHelp\"> Upcoming Collection - Nike x CoconutTree </strong>\n            <h2>  Available to PRE - ORDER Right Now!! </h2>\n            <br>\n            <br>\n            <p> The ultimate destination for stylish and trendy collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</p>\n            <div class=\"content-button\">\n                <a href=\"#About\">\n                    <span></span> Apparel Collection\n                </a>\n                <a href=\"#OurCollection\">\n                    <span></span> Read More (Other Collection)\n                </a>\n            </div>\n            <br>\n            <br>\n            <a href=\"http://localhost:5080/OrderPage\" class=\"button\"> PRE ORDER NOW </a>\n            <br>\n            <br>\n            <br>\n            \n        </div>\n    </section>\n    <!--OurCollection-->\n    <section id=\"OurCollection\">\n        <div class=\"Title_font\">\n            <br>\n            <br>\n            <p>Our Collection</p>\n            <br>\n            <h1>Welcome to Killing Fashion Collaborations, the ultimate destination for fashionable collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</h1>\n            <br>\n            <h1>At Killing Fashion Collaborations, we believe that fashion can be unique and empowering. Our collection includes limited edition sneakers, boots, and sandals that are sure to showcase your individuality and charm.</h1>\n            <br>\n            <h1>Whether you're looking for the latest Nike x Off-White collaboration or an exclusive Adidas x Pharrell Williams release, you'll find it here at Killing Fashion Collaborations. We take pride in offering the best selection of footwear from around the world, all in one convenient place.</h1>\n        </div>\n        <div class=\"OurCollection-Box\">\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe01.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: DUNK LOW</h3>\n                    <hr>\n                    <p> The Nike Dunk Low is a classic low-cut sneaker with a padded tongue and collar for comfort, durable leather and suede upper, and iconic Nike swoosh branding.\n                        </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe02.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Force</h3>\n                    <hr>\n                    <p> The Air Force is a classic high-top sneaker from Nike with a leather upper, perforated toe box, padded collar, and chunky sole for a timeless, versatile look.</p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe03.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Jordan</h3>\n                    <hr>\n                    <p> The Air Jordan is a legendary basketball sneaker from Nike, designed in collaboration with Michael Jordan. Featuring a sleek silhouette, durable leather upper, and iconic Jumpman logo, the Air Jordan is a true classic. </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe04.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Dior x Nike Air Jordan 1</h3>\n                    <hr>\n                    <p> The Dior x Nike Air Jordan 1 is a luxury sneaker collaboration that combines the iconic Air Jordan 1 silhouette with Dior's high-end fashion aesthetic. Featuring a premium leather upper, embroidered Swoosh, and Dior branding, this shoe is a rare and coveted collector's item.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!---About-->\n    <section id=\"About\">\n        <div class=\"Title_font\">\n            <p>Apparel Collection</p>\n        </div>\n        <div class=\"About-Box d-flex justify-content-center align-content-between text-center\">\n            <h3 class=\"w-100\">Nike x CoconutTree</h3>\n        </div>\n        <div class=\"About\">\n            <h1>Overview</h1>\n            <div class=\"About-Description\">\n                <div class=\"About-Text\">\n                    <p id=\"WhatisAbout\"></p>\n                </div>\n            </div>\n            <h1>Search for the COLLECTION WE GOT TODAY</h1>\n        </div>\n        <br>\n        <div class=\"Searchlist\" style=\"line-height: 30px;\">\n            <br>\n            <input type=\"button\" value=\"FindShoes\" class=\"btn btn -lg\" onclick=\"queryProduct()\">\n            <table id=\"ShoesList\" style=\"width: 90%;\">\n                <thead>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </thead>\n                <tfoot>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </tfoot>\n            </table>\n        </section>\n        <!--Recommendations-->\n        <section id=\"Recommendations\">\n            <div class=\"Title_font\">\n                <br>\n                <br>\n                <p> Other Recommendations</p>\n                <br>\n            \n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike01.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4>Nike x UNO x Air Force 1 Low '50th Anniversary'</h4>\n                            <small>£90</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike02.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4> Nike x Cactus Plant Flea Market 1 sneakers</h4>\n                            <small>£871</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike03.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4> Nike X Off-White Dunk Low sneakers</h4>\n                            <small>£898</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike04.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Tiffany & Co. Air Force 1 Low sneakers</h4>\n                            <small>£3,367 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike05.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Louis Vuitton Air Force 1 Low sneakers</h4>\n                            <small>£12,071 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike06.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Gucci - Interlocking G leather sneakers</h4>\n                            <small>£685 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--Information-->\n        <section>\n            <div id=\"Information\">\n                <div class=\"Title_font\">\n                    <br>\n                    <br>\n                    <p>More Information </p>\n                    <br>\n                    <h1>Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n                </div>\n                <div class=\"Information_Info\">\n                    <h1>Subscribe to Us for the latest news and updates.</h1>\n                    <strong>Easily unsubscribe in one click from email subscriptions. Sign up today!</strong>\n                    <form action=\"/subscribe\" method=\"post\">\n                        <br>\n                        <div class=\"EmailForm\">\n                            <label for=\"lastname\">Last Name: *</label>\n                            <br/>\n                            <input type=\"text\" name=\"lastname\" id=\"lastname\" class=\"Form_Info\" placeholder=\"Last Name\" required>\n                            <br>\n                            <br>\n                            <label for=\"email\">Email: *</label>\n                            <br/>\n                            <input type=\"email\" name=\"email\" id=\"email\" class=\"Form_Info\" placeholder=\"Email\" required>\n                            <br>\n                            <br>\n                            <br>\n                            <p>Enter your details to receive our latest news.</p>\n                            <div class=\"newsletter \">\n                                <input class=\"newsletter-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n                                <label class=\"newsletter-label\" for=\"flexCheckChecked\">\n                                    Receive our monthly newsletter.\n                                </label>\n                            </div>\n                            <br>\n                            <br>\n                            <div id=\"Subscribe\"></div>\n                            <button id=\"SignupBtn\">Subscribe</button>\n                        </form>\n                        <hr>\n                        <br>\n                        <br>\n                        <br>\n                        <section id=\"Footer\">\n                            <div class=\"Footer-Row\">\n                                <p>Phone 07885 340220 \n                                    <i class=\"fa-solid fa-phone\"></i>\n                                </i>\n                            </p>\n                            <p>KillingFashion_Collaborations@gmail.com \n                                <i class=\"fa-solid fa-paper-plane\"></i>\n                            </i>\n                        </p>\n                        <p>Queen's college, Rainmill, London LN1 3LH\n                            <i class=\"fa-solid fa-location-dot\"></i>\n                        </i>\n                    </p>\n                </div>\n                <div class=\"Social-Link\">\n                    <i class=\"fa-brands fa-instagram\"></i>\n                    <i class=\"fa-brands fa-facebook\"></i>\n                    <i class=\"fa-brands fa-twitter\"></i>\n                    <i class=\"fa-brands fa-whatsapp\"></i>\n                    <br>\n                    <p>Copyright</p>\n                    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n                    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n                \n                </div>\n            </section>\n        </section>\n        <script src=\"Javascript.js\"></script>\n    </body>\n</html>"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "rating",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "comments",
+									"value": "very Good",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5080/rating.do",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"rating.do"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 16 Mar 2023 05:06:59 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"445f-186e8d06fb6\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17503"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:50:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"Author\" content=\"Kwan Ling Megan LAW\">\n        <meta name=\"Description\" content=\"This is a page about quick fashion.\">\n        <title>KillingFashion_Collaborations</title>\n        <!-- link for CSS file -->\n        <link rel=\"stylesheet\" href=\"style.css\">\n        <!-- Add Javascript -->\n        <script src=\"Javascript.js\"></script>\n        <!-- Add fonts CDN from google: https://fonts.google.com -->\n        <link href=\"https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap\" rel=\"stylesheet\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=EB+Garamond:wght@500&family=Playfair+Display:wght@400;500;600&family=Shadows+Into+Light+Two&display=swap\" rel=\"stylesheet\">\n        <!-- bootstrap -->\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">\n        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n        <!-- bootstrap -->\n        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>\n        <link rel=\"stylesheet\" media=\"screen and (min-width: 900px)\" href=\"widescreen.css\">\n        <link rel=\"stylesheet\" media=\"screen and (max-width: 600px)\" href=\"smallscreen.css\">\n        <!-- Add Icon - fontswesome -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" integrity=\"sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"\n    />\n        <!-- Add Icon - jQuery -->\n        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n        <link href=\"https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css\">\n        <script src=\"https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js\"></script>\n        <style>\n        code {\n            white-space: pre-wrap;\n          }\n          \n          span.smallcaps {\n            font-variant: small-caps;\n          }\n          \n          div.columns {\n            display: flex;\n            gap: min(4vw, 1.5em);\n          }\n          \n          div.column {\n            flex: auto;\n            overflow-x: auto;\n          }\n          \n          div.hanging-indent {\n            margin-left: 1.5em;\n            text-indent: -1.5em;\n          }\n          \n          ul.task-list {\n            list-style: none;\n          }\n          \n          ul.task-list li input[type=\"checkbox\"] {\n            width: 0.8em;\n            margin: 0 0.8em 0.2em -1.6em;\n            vertical-align: middle;\n          }\n          \n          .display.math {\n            display: block;\n            text-align: center;\n            margin: 0.5rem auto;\n          }\n          \n      </style>\n    </head>\n    <body>\n        <div class=\"top\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n            <br>\n        \n        </div>\n    </section>\n    <!-- Navbar Section -->\n    <div id=\"Navbar\">\n        <nav>\n            <ul class=\"Navbar_Menu\">\n                <li class=\"Navbar_Info\">\n                    <a href=\"#HOME\" id=\"Home_page\">HOME</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#OurCollection\" id=\"About_page\">ABOUT US</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#About\" id=\"LargeChart_page\">UPCOMING!!</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Recommendations\" id=\"Recommendations_page\">RECOMMENDATIONS</a>\n                </li>\n                <li class=\"Navbar_Info\">\n                    <a href=\"#Information\" id=\"Information_page\">MORE INFO</a>\n                </li>\n            </ul>\n        </nav>\n    </div>\n    <div id=\"NavButton\">\n        <img src=\"image/menu.png\" id=\"Menu\">\n        \n    </div>\n    <!---HOME Section - Content Page -->\n    <section id=\"HOME\">\n        <div class=\"content\">\n            <img src=\"\" id=\"logo\">\n            <script src=\"home_logo.js\"></script>\n            <h1> Welcome to Killing Fashion Collaborations. </h1>\n            <br>\n            <strong id=\"NeedHelp\"> Upcoming Collection - Nike x CoconutTree </strong>\n            <h2>  Available to PRE - ORDER Right Now!! </h2>\n            <br>\n            <br>\n            <p> The ultimate destination for stylish and trendy collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</p>\n            <div class=\"content-button\">\n                <a href=\"#About\">\n                    <span></span> Apparel Collection\n                </a>\n                <a href=\"#OurCollection\">\n                    <span></span> Read More (Other Collection)\n                </a>\n            </div>\n            <br>\n            <br>\n            <a href=\"http://localhost:5080/OrderPage\" class=\"button\"> PRE ORDER NOW </a>\n            <br>\n            <br>\n            <br>\n            \n        </div>\n    </section>\n    <!--OurCollection-->\n    <section id=\"OurCollection\">\n        <div class=\"Title_font\">\n            <br>\n            <br>\n            <p>Our Collection</p>\n            <br>\n            <h1>Welcome to Killing Fashion Collaborations, the ultimate destination for fashionable collaborative footwear. Our company specializes in curating and selling a wide range of shoes featuring exciting collaborations between top designers and brands.</h1>\n            <br>\n            <h1>At Killing Fashion Collaborations, we believe that fashion can be unique and empowering. Our collection includes limited edition sneakers, boots, and sandals that are sure to showcase your individuality and charm.</h1>\n            <br>\n            <h1>Whether you're looking for the latest Nike x Off-White collaboration or an exclusive Adidas x Pharrell Williams release, you'll find it here at Killing Fashion Collaborations. We take pride in offering the best selection of footwear from around the world, all in one convenient place.</h1>\n        </div>\n        <div class=\"OurCollection-Box\">\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe01.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: DUNK LOW</h3>\n                    <hr>\n                    <p> The Nike Dunk Low is a classic low-cut sneaker with a padded tongue and collar for comfort, durable leather and suede upper, and iconic Nike swoosh branding.\n                        </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe02.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Force</h3>\n                    <hr>\n                    <p> The Air Force is a classic high-top sneaker from Nike with a leather upper, perforated toe box, padded collar, and chunky sole for a timeless, versatile look.</p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe03.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Nike: Air Jordan</h3>\n                    <hr>\n                    <p> The Air Jordan is a legendary basketball sneaker from Nike, designed in collaboration with Michael Jordan. Featuring a sleek silhouette, durable leather upper, and iconic Jumpman logo, the Air Jordan is a true classic. </p>\n                </div>\n            </div>\n            <div class=\"Single-OurCollection\">\n                <img src=\"image/Shoe04.jpg\">\n                <div class=\"OurCollection_Cover\"></div>\n                <div class=\"OurCollection-Description\">\n                    <h3>Dior x Nike Air Jordan 1</h3>\n                    <hr>\n                    <p> The Dior x Nike Air Jordan 1 is a luxury sneaker collaboration that combines the iconic Air Jordan 1 silhouette with Dior's high-end fashion aesthetic. Featuring a premium leather upper, embroidered Swoosh, and Dior branding, this shoe is a rare and coveted collector's item.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!---About-->\n    <section id=\"About\">\n        <div class=\"Title_font\">\n            <p>Apparel Collection</p>\n        </div>\n        <div class=\"About-Box d-flex justify-content-center align-content-between text-center\">\n            <h3 class=\"w-100\">Nike x CoconutTree</h3>\n        </div>\n        <div class=\"About\">\n            <h1>Overview</h1>\n            <div class=\"About-Description\">\n                <div class=\"About-Text\">\n                    <p id=\"WhatisAbout\"></p>\n                </div>\n            </div>\n            <h1>Search for the COLLECTION WE GOT TODAY</h1>\n        </div>\n        <br>\n        <div class=\"Searchlist\" style=\"line-height: 30px;\">\n            <br>\n            <input type=\"button\" value=\"FindShoes\" class=\"btn btn -lg\" onclick=\"queryProduct()\">\n            <table id=\"ShoesList\" style=\"width: 90%;\">\n                <thead>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </thead>\n                <tfoot>\n                    <tr class=\"ShoesListHeader\">\n                        <th style=\"width:20%;\">Brand</th>\n                        <th style=\"width:20%;\">Model</th>\n                        <th style=\"width:20%;\">Designer</th>\n                        <th style=\"width:20%;\">Price</th>\n                        <th style=\"width:20%;\">Release Date</th>\n                    </tr>\n                </tfoot>\n            </table>\n        </section>\n        <!--Recommendations-->\n        <section id=\"Recommendations\">\n            <div class=\"Title_font\">\n                <br>\n                <br>\n                <p> Other Recommendations</p>\n                <br>\n            \n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike01.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4>Nike x UNO x Air Force 1 Low '50th Anniversary'</h4>\n                            <small>£90</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike02.jpg\">\n                        <div class=\"Clent-Info\">\n                            <h4> Nike x Cactus Plant Flea Market 1 sneakers</h4>\n                            <small>£871</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike03.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4> Nike X Off-White Dunk Low sneakers</h4>\n                            <small>£898</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"Recommendations-Row\">\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike04.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Tiffany & Co. Air Force 1 Low sneakers</h4>\n                            <small>£3,367 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client\">\n                        <img src=\"image/nike05.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Nike x Louis Vuitton Air Force 1 Low sneakers</h4>\n                            <small>£12,071 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"Recommendations-Cloumn\">\n                    <div class=\"Client \">\n                        <img src=\"image/nike06.jpg\">\n                        <div class=\"Clent-Info \">\n                            <h4>Gucci - Interlocking G leather sneakers</h4>\n                            <small>£685 (Import duties included)</small>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--Information-->\n        <section>\n            <div id=\"Information\">\n                <div class=\"Title_font\">\n                    <br>\n                    <br>\n                    <p>More Information </p>\n                    <br>\n                    <h1>Join our community of shoe lovers and stay up-to-date on the latest releases and collaborations. Shop with us today and step up your shoe game like never before!</h1>\n                </div>\n                <div class=\"Information_Info\">\n                    <h1>Subscribe to Us for the latest news and updates.</h1>\n                    <strong>Easily unsubscribe in one click from email subscriptions. Sign up today!</strong>\n                    <form action=\"/subscribe\" method=\"post\">\n                        <br>\n                        <div class=\"EmailForm\">\n                            <label for=\"lastname\">Last Name: *</label>\n                            <br/>\n                            <input type=\"text\" name=\"lastname\" id=\"lastname\" class=\"Form_Info\" placeholder=\"Last Name\" required>\n                            <br>\n                            <br>\n                            <label for=\"email\">Email: *</label>\n                            <br/>\n                            <input type=\"email\" name=\"email\" id=\"email\" class=\"Form_Info\" placeholder=\"Email\" required>\n                            <br>\n                            <br>\n                            <br>\n                            <p>Enter your details to receive our latest news.</p>\n                            <div class=\"newsletter \">\n                                <input class=\"newsletter-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n                                <label class=\"newsletter-label\" for=\"flexCheckChecked\">\n                                    Receive our monthly newsletter.\n                                </label>\n                            </div>\n                            <br>\n                            <br>\n                            <div id=\"Subscribe\"></div>\n                            <button id=\"SignupBtn\">Subscribe</button>\n                        </form>\n                        <hr>\n                        <br>\n                        <br>\n                        <br>\n                        <section id=\"Footer\">\n                            <div class=\"Footer-Row\">\n                                <p>Phone 07885 340220 \n                                    <i class=\"fa-solid fa-phone\"></i>\n                                </i>\n                            </p>\n                            <p>KillingFashion_Collaborations@gmail.com \n                                <i class=\"fa-solid fa-paper-plane\"></i>\n                            </i>\n                        </p>\n                        <p>Queen's college, Rainmill, London LN1 3LH\n                            <i class=\"fa-solid fa-location-dot\"></i>\n                        </i>\n                    </p>\n                </div>\n                <div class=\"Social-Link\">\n                    <i class=\"fa-brands fa-instagram\"></i>\n                    <i class=\"fa-brands fa-facebook\"></i>\n                    <i class=\"fa-brands fa-twitter\"></i>\n                    <i class=\"fa-brands fa-whatsapp\"></i>\n                    <br>\n                    <p>Copyright</p>\n                    <p>© 2023 Killing Fashion. All Rights Reserved.</p>\n                    <img src=\"image/shoeicon.ico\" class=\"Footer-img\">\n                \n                </div>\n            </section>\n        </section>\n        <script src=\"Javascript.js\"></script>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5080/subscribe",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "http://localhost:5080/subscribe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5080/subscribe?lastname=Law&email=megankllaw@id.com&newsletter=Yes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"subscribe"
+							],
+							"query": [
+								{
+									"key": "lastname",
+									"value": "Law"
+								},
+								{
+									"key": "email",
+									"value": "megankllaw@id.com"
+								},
+								{
+									"key": "newsletter",
+									"value": "Yes"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "X-HTTP-Method-Override"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "86"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"56-kuYB2nViiAQQvXir3mSlwPx54YU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:17:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<p>Thank you for subscribing! Your last name is undefined and your email is undefined."
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "lastname",
+									"value": "Law",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "MEfav@imail.ocm",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5080/subscribe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5080",
+							"path": [
+								"subscribe"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "X-HTTP-Method-Override"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "86"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"56-GP8vbo3nqHi/lbaDOZdw0BhrB4Q\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Mar 2023 06:49:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<p>Thank you for subscribing! Your last name is Law and your email is MEfav@imail.ocm."
+				}
+			]
+		}
+	]
+}

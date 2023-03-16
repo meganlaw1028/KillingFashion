@@ -1,0 +1,337 @@
+{"data":[
+      {
+        "brand": "Nike",
+        "model": "Air Jordan 1",
+        "designer": "Travis Scott",
+        "price": 1500,
+        "releaseDate": "2021-05-29",
+        "image": "image/brand01.jpg"
+      },
+      {
+        "brand": "Adidas",
+        "model": "Yeezy Boost 350",
+        "designer": "Kanye West",
+        "price": 2000,
+        "releaseDate": "2020-04-25",
+        "image": "image/brand02.jpg"
+      },
+      {
+        "brand": "Converse",
+        "model": "Chuck Taylor All Star",
+        "designer": "Off-White",
+        "price": 1200,
+        "releaseDate": "2018-05-10",
+        "image": "image/brand03.jpg"
+      },
+      {
+        "brand": "Puma",
+        "model": "Clyde",
+        "designer": "The Weeknd",
+        "price": 900,
+        "releaseDate": "2018-08-11",
+        "image": "image/brand04.jpg"
+      },
+      {
+        "brand": "Reebok",
+        "model": "Classic Leather",
+        "designer": "Kendrick Lamar",
+        "price": 1300,
+        "releaseDate": "2017-12-29",
+        "image": "image/brand05.jpg"
+      },
+      {
+        "brand": "New Balance",
+        "model": "990v4",
+        "designer": "Ronnie Fieg",
+        "price": 1100,
+        "releaseDate": "2018-09-28",
+        "image": "image/brand06.jpg"
+      },
+      {
+        "brand": "Vans",
+        "model": "Sk8-Hi",
+        "designer": "Supreme",
+        "price": 800,
+        "releaseDate": "2019-03-06",
+        "image": "image/brand07.jpg"
+      },
+      {
+        "brand": "Asics",
+        "model": "Gel-Lyte III",
+        "designer": "Kith",
+        "price": 1500,
+        "releaseDate": "2019-11-29",
+        "image": "image/brand08.jpg"
+      },
+      {
+        "brand": "Jordan",
+        "model": "Air Jordan 4",
+        "designer": "Kaws",
+        "price": 2500,
+        "releaseDate": "2017-03-31",
+        "image": "image/brand09.jpg"
+      },
+      {
+        "brand": "Nike",
+        "model": "Air Max 97",
+        "designer": "Sean Wotherspoon",
+        "price": 1800,
+        "releaseDate": "2018-03-24",
+        "image": "image/brand10.jpg"
+      },
+      {
+        "brand": "Adidas",
+        "model": "Ultra Boost",
+        "designer": "Stella McCartney",
+        "price": 1200,
+        "releaseDate": "2019-04-25",
+        "image": "image/brand11.jpg"
+      },
+      {
+        "brand": "Puma",
+        "model": "Suede",
+        "designer": "Alexander McQueen",
+        "price": 900,
+        "releaseDate": "2015-09-15",
+        "image": "image/brand12.jpg"
+      },
+      {
+        "brand": "Nike",
+        "model": "Air Force 1",
+        "designer": "Cactus Plant Flea Market",
+        "price": 1500,
+        "releaseDate": "2019-11-29",
+        "image": "image/brand13.jpg"
+      },
+      {
+        "brand": "Nike",
+        "model": "Air Max 1",
+        "designer": "Atmos",
+        "price": 150,
+        "releaseDate": "2007-03-17",
+        "image": "image/brand14.jpg"
+    },
+    {
+        "brand": "Converse",
+        "model": "Chuck Taylor All-Star",
+        "designer": "Andy Warhol",
+        "price": 80,
+        "releaseDate": "2015-02-07",
+        "image": "image/brand15.jpg"
+    },
+    {
+        "brand": "Puma",
+        "model": "Blaze of Glory",
+        "designer": "BAPE",
+        "price": 150,
+        "releaseDate": "2015-07-25",
+        "image": "image/brand16.jpg"
+    },
+    {
+        "brand": "Vans",
+        "model": "Slip-On",
+        "designer": "The Simpsons",
+        "price": 75,
+        "releaseDate": "2020-08-07",
+        "image": "image/brand17.jpg"
+    },
+    {
+        "brand": "Adidas",
+        "model": "Yeezy Boost 350 V2",
+        "designer": "Kanye West",
+        "price": 220,
+        "releaseDate": "2017-02-25",
+        "image": "image/brand18.jpg"
+    },
+    {
+      "brand": "Converse",
+      "model": "Chuck Taylor All Star",
+      "designer": "Comme des Garçons",
+      "price": 800,
+      "releaseDate": "2020-05-15",
+      "image": "image/brand19.jpg"
+    },
+    {
+      "brand": "Gucci",
+      "model": "Ace embroidered leather sneakers",
+      "designer": "Alessandro Michele",
+      "price": 790,
+      "releaseDate": "2021-02-01"
+    },
+    {
+      "brand": "Christian Louboutin",
+      "model": "Louis Spikes Men's Flat",
+      "designer": "Christian Louboutin",
+      "price": 1195,
+      "releaseDate": "2021-05-01"
+    },
+    {
+      "brand": "Balenciaga",
+      "model": "Triple S Trainers",
+      "designer": "Demna Gvasalia",
+      "price": 995,
+      "releaseDate": "2020-10-01"
+    },
+    {
+      "brand": "Prada",
+      "model": "Cloudbust Thunder Knit Sneakers",
+      "designer": "Miuccia Prada",
+      "price": 950,
+      "releaseDate": "2020-09-15"
+    },
+    {
+      "brand": "Alexander McQueen",
+      "model": "Oversized Sneaker",
+      "designer": "Sarah Burton",
+      "price": 590,
+      "releaseDate": "2021-04-01"
+    },
+    {
+      "brand": "Maison Margiela",
+      "model": "Replica High Top Sneakers",
+      "designer": "John Galliano",
+      "price": 595,
+      "releaseDate": "2021-03-15"
+    },
+    {
+      "brand": "Yeezy",
+      "model": "Boost 700 Wave Runner Solid Grey",
+      "designer": "Kanye West",
+      "price": 550,
+      "releaseDate": "2020-08-01"
+    },
+    {
+      "brand": "Valentino",
+      "model": "Garavani Climber Sneakers",
+      "designer": "Pierpaolo Piccioli",
+      "price": 890,
+      "releaseDate": "2020-07-01"
+    },
+    {
+      "brand": "Off-White",
+      "model": "Off-Court 3.0 Sneakers",
+      "designer": "Virgil Abloh",
+      "price": 550,
+      "releaseDate": "2020-12-01"
+    },
+    {
+      "brand": "Givenchy",
+      "model": "Active Runner Sneakers",
+      "designer": "Matthew M. Williams",
+      "price": 795,
+      "releaseDate": "2021-01-15"
+    },
+    {
+      "brand": "Dior",
+      "model": "B23 High-Top Sneakers",
+      "designer": "Kim Jones",
+      "price": 1100,
+      "releaseDate": "2020-06-01"
+    },
+    {
+      "brand": "Fendi",
+      "model": "White & Black 'Forever Fendi' Sneakers",
+      "designer": "Silvia Venturini Fendi",
+      "price": 790,
+      "releaseDate": "2021-03-01"
+    },
+    {
+      "brand": "Rick Owens",
+      "model": "Geobasket Sneakers",
+      "designer": "Rick Owens",
+      "price": 1400,
+      "releaseDate": "2020-11-01"
+    }, 
+    {
+      "brand": "Saint Laurent",
+      "model": "Signature Court Classic SL/06 Sneakers",
+      "designer": "Anthony Vaccarello",
+      "price": 495,
+      "releaseDate": "2021-02-01"
+    },
+    {
+      "brand": "Golden Goose",
+      "model": "Superstar Sneakers",
+      "designer": "Francesca Rinaldo and Alessandro Gallo",
+      "price": 530,
+      "releaseDate": "2020-10-01"
+    },
+    {
+      "brand": "Bottega Veneta",
+      "model": "Speedster Sneakers",
+      "designer": "Daniel Lee",
+      "price": 790,
+      "releaseDate": "2021-03-15"
+    },
+    {
+      "brand": "Balmain",
+      "model": "B-Court Leather Sneakers",
+      "designer": "Olivier Rousteing",
+      "price": 595,
+      "releaseDate": "2020-12-01"
+    },
+    {
+      "brand": "Fendi",
+      "model": "Monster Eyes Leather High-Top Sneakers",
+      "designer": "Silvia Venturini Fendi",
+      "price": 790,
+      "releaseDate": "2021-01-01"
+    },
+    {
+      "brand": "Versace",
+      "model": "Greca Chain Sneakers",
+      "designer": "Donatella Versace",
+      "price": 895,
+      "releaseDate": "2021-04-15"
+    },
+    {
+      "brand": "Maison Margiela",
+      "model": "Fusion Sneakers",
+      "designer": "John Galliano",
+      "price": 1450,
+      "releaseDate": "2020-09-01"
+    },
+    {
+      "brand": "Gucci",
+      "model": "Flashtrek Sneakers",
+      "designer": "Alessandro Michele",
+      "price": 1350,
+      "releaseDate": "2020-07-15"
+    },
+    {
+      "brand": "Off-White",
+      "model": "2.0 Sneakers",
+      "designer": "Virgil Abloh",
+      "price": 675,
+      "releaseDate": "2020-11-15"
+    },
+    {
+      "brand": "Balenciaga",
+      "model": "Track.2 Sneakers",
+      "designer": "Demna Gvasalia",
+      "price": 895,
+      "releaseDate": "2021-05-01"
+    },
+    {
+      "brand": "Prada",
+      "model": "Nylon Gabardine High-Top Sneakers",
+      "designer": "Miuccia Prada",
+      "price": 850,
+      "releaseDate": "2021-02-15"
+    },
+    {
+      "brand": "Rick Owens",
+      "model": "Vegan Leather High-Top Sneakers",
+      "designer": "Rick Owens",
+      "price": 830,
+      "releaseDate": "2020-12-15"
+    },
+    {
+      "brand": "Givenchy",
+      "model": "Jaw Leather Sneakers",
+      "designer": "Matthew M. Williams",
+      "price": 850,
+      "releaseDate": "2021-03-01"
+    }
+]
+}
